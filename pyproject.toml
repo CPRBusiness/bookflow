@@ -1,0 +1,19 @@
+[project]
+name = "bookflow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Cristi4066", email = "62331367+Cristi4066@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.142.2",
+]
+
+[project.scripts]
+bookflow = "bookflow:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
